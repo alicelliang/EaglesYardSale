@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85340B6DAC5847A1BEEB7DA8 /* Pods_Eagles_Yard_Sale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F441F535F25B97759015616E /* Pods_Eagles_Yard_Sale.framework */; };
 		D16687C7226FD43A003C8E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687C6226FD43A003C8E26 /* AppDelegate.swift */; };
-		D16687C9226FD43A003C8E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687C8226FD43A003C8E26 /* ViewController.swift */; };
 		D16687CC226FD43A003C8E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16687CA226FD43A003C8E26 /* Main.storyboard */; };
 		D16687CE226FD43D003C8E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16687CD226FD43D003C8E26 /* Assets.xcassets */; };
 		D16687D1226FD43D003C8E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16687CF226FD43D003C8E26 /* LaunchScreen.storyboard */; };
+		D16687DD226FFF5C003C8E26 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687DC226FFF5C003C8E26 /* Post.swift */; };
+		D16687DF227000D2003C8E26 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687DE227000D2003C8E26 /* Posts.swift */; };
+		D16687E32270111D003C8E26 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687E22270111D003C8E26 /* PostViewController.swift */; };
+		D16687E522702100003C8E26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16687E4227020FF003C8E26 /* GoogleService-Info.plist */; };
+		D16687E72270F151003C8E26 /* CSOMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687E62270F150003C8E26 /* CSOMTableViewController.swift */; };
+		D16687E92271099E003C8E26 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687E82271099E003C8E26 /* InitialViewController.swift */; };
+		D16687EB22710C6B003C8E26 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687EA22710C6B003C8E26 /* Array.swift */; };
+		D16687ED22710E80003C8E26 /* CSONTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687EC22710E80003C8E26 /* CSONTableViewController.swift */; };
+		D16687EF22710E8F003C8E26 /* MCASTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687EE22710E8F003C8E26 /* MCASTableViewController.swift */; };
+		D16687F122710E9E003C8E26 /* LSOETableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16687F022710E9E003C8E26 /* LSOETableViewController.swift */; };
+		D18890632276A9C1004DBCEB /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18890622276A9C1004DBCEB /* DetailTableViewController.swift */; };
+		D18890672276C528004DBCEB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18890662276C528004DBCEB /* TableViewCell.swift */; };
+		D1889069227716AE004DBCEB /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1889068227716AE004DBCEB /* ContainerViewController.swift */; };
+		D18FC44A2274CFD500307AFB /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FC4482274CFD400307AFB /* Photos.swift */; };
+		D18FC44B2274CFD500307AFB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18FC4492274CFD500307AFB /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17641F4EB3F836C457454F86 /* Pods-Eagles Yard Sale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagles Yard Sale.release.xcconfig"; path = "Target Support Files/Pods-Eagles Yard Sale/Pods-Eagles Yard Sale.release.xcconfig"; sourceTree = "<group>"; };
+		4CC327C9A604D17BC54E8993 /* Pods-Eagles Yard Sale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eagles Yard Sale.debug.xcconfig"; path = "Target Support Files/Pods-Eagles Yard Sale/Pods-Eagles Yard Sale.debug.xcconfig"; sourceTree = "<group>"; };
 		D16687C3226FD43A003C8E26 /* Eagles Yard Sale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eagles Yard Sale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16687C6226FD43A003C8E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D16687C8226FD43A003C8E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D16687CB226FD43A003C8E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D16687CD226FD43D003C8E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D16687D0226FD43D003C8E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D16687D2226FD43D003C8E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16687DC226FFF5C003C8E26 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D16687DE227000D2003C8E26 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		D16687E22270111D003C8E26 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		D16687E4227020FF003C8E26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D16687E62270F150003C8E26 /* CSOMTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSOMTableViewController.swift; sourceTree = "<group>"; };
+		D16687E82271099E003C8E26 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		D16687EA22710C6B003C8E26 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D16687EC22710E80003C8E26 /* CSONTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSONTableViewController.swift; sourceTree = "<group>"; };
+		D16687EE22710E8F003C8E26 /* MCASTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCASTableViewController.swift; sourceTree = "<group>"; };
+		D16687F022710E9E003C8E26 /* LSOETableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSOETableViewController.swift; sourceTree = "<group>"; };
+		D18890622276A9C1004DBCEB /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		D18890662276C528004DBCEB /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D1889068227716AE004DBCEB /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		D18FC4482274CFD400307AFB /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		D18FC4492274CFD500307AFB /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F441F535F25B97759015616E /* Pods_Eagles_Yard_Sale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eagles_Yard_Sale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85340B6DAC5847A1BEEB7DA8 /* Pods_Eagles_Yard_Sale.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FF1C6D871074F3D4C33311E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CC327C9A604D17BC54E8993 /* Pods-Eagles Yard Sale.debug.xcconfig */,
+				17641F4EB3F836C457454F86 /* Pods-Eagles Yard Sale.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D16687BA226FD43A003C8E26 = {
 			isa = PBXGroup;
 			children = (
 				D16687C5226FD43A003C8E26 /* Eagles Yard Sale */,
 				D16687C4226FD43A003C8E26 /* Products */,
+				1FF1C6D871074F3D4C33311E /* Pods */,
+				FAABB324637B70E4DF23A029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +99,35 @@
 			isa = PBXGroup;
 			children = (
 				D16687C6226FD43A003C8E26 /* AppDelegate.swift */,
-				D16687C8226FD43A003C8E26 /* ViewController.swift */,
+				D1889068227716AE004DBCEB /* ContainerViewController.swift */,
+				D16687E82271099E003C8E26 /* InitialViewController.swift */,
+				D16687E62270F150003C8E26 /* CSOMTableViewController.swift */,
+				D16687EC22710E80003C8E26 /* CSONTableViewController.swift */,
+				D16687EE22710E8F003C8E26 /* MCASTableViewController.swift */,
+				D16687F022710E9E003C8E26 /* LSOETableViewController.swift */,
+				D18890622276A9C1004DBCEB /* DetailTableViewController.swift */,
+				D18890662276C528004DBCEB /* TableViewCell.swift */,
+				D16687E22270111D003C8E26 /* PostViewController.swift */,
+				D16687EA22710C6B003C8E26 /* Array.swift */,
+				D16687DE227000D2003C8E26 /* Posts.swift */,
+				D16687DC226FFF5C003C8E26 /* Post.swift */,
+				D18FC4492274CFD500307AFB /* Photo.swift */,
+				D18FC4482274CFD400307AFB /* Photos.swift */,
 				D16687CA226FD43A003C8E26 /* Main.storyboard */,
 				D16687CD226FD43D003C8E26 /* Assets.xcassets */,
 				D16687CF226FD43D003C8E26 /* LaunchScreen.storyboard */,
 				D16687D2226FD43D003C8E26 /* Info.plist */,
+				D16687E4227020FF003C8E26 /* GoogleService-Info.plist */,
 			);
 			path = "Eagles Yard Sale";
+			sourceTree = "<group>";
+		};
+		FAABB324637B70E4DF23A029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F441F535F25B97759015616E /* Pods_Eagles_Yard_Sale.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D16687D5226FD43D003C8E26 /* Build configuration list for PBXNativeTarget "Eagles Yard Sale" */;
 			buildPhases = (
+				54A7A9AAC6C4A36BDB11FA47 /* [CP] Check Pods Manifest.lock */,
 				D16687BF226FD43A003C8E26 /* Sources */,
 				D16687C0226FD43A003C8E26 /* Frameworks */,
 				D16687C1226FD43A003C8E26 /* Resources */,
+				C9487A4A0860AA244E982429 /* [CP] Embed Pods Frameworks */,
+				95A0931E1175950600A525B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,17 +194,120 @@
 				D16687D1226FD43D003C8E26 /* LaunchScreen.storyboard in Resources */,
 				D16687CE226FD43D003C8E26 /* Assets.xcassets in Resources */,
 				D16687CC226FD43A003C8E26 /* Main.storyboard in Resources */,
+				D16687E522702100003C8E26 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54A7A9AAC6C4A36BDB11FA47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eagles Yard Sale-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A0931E1175950600A525B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eagles Yard Sale/Pods-Eagles Yard Sale-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eagles Yard Sale/Pods-Eagles Yard Sale-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9487A4A0860AA244E982429 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eagles Yard Sale/Pods-Eagles Yard Sale-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eagles Yard Sale/Pods-Eagles Yard Sale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D16687BF226FD43A003C8E26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16687C9226FD43A003C8E26 /* ViewController.swift in Sources */,
+				D18890672276C528004DBCEB /* TableViewCell.swift in Sources */,
+				D18FC44B2274CFD500307AFB /* Photo.swift in Sources */,
+				D16687E72270F151003C8E26 /* CSOMTableViewController.swift in Sources */,
+				D18890632276A9C1004DBCEB /* DetailTableViewController.swift in Sources */,
+				D16687DD226FFF5C003C8E26 /* Post.swift in Sources */,
+				D16687EF22710E8F003C8E26 /* MCASTableViewController.swift in Sources */,
+				D16687F122710E9E003C8E26 /* LSOETableViewController.swift in Sources */,
+				D16687E92271099E003C8E26 /* InitialViewController.swift in Sources */,
+				D18FC44A2274CFD500307AFB /* Photos.swift in Sources */,
+				D1889069227716AE004DBCEB /* ContainerViewController.swift in Sources */,
+				D16687ED22710E80003C8E26 /* CSONTableViewController.swift in Sources */,
+				D16687E32270111D003C8E26 /* PostViewController.swift in Sources */,
+				D16687EB22710C6B003C8E26 /* Array.swift in Sources */,
+				D16687DF227000D2003C8E26 /* Posts.swift in Sources */,
 				D16687C7226FD43A003C8E26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,6 +452,7 @@
 		};
 		D16687D6226FD43D003C8E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC327C9A604D17BC54E8993 /* Pods-Eagles Yard Sale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +471,7 @@
 		};
 		D16687D7226FD43D003C8E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17641F4EB3F836C457454F86 /* Pods-Eagles Yard Sale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

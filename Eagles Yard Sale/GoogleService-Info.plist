@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1007465285635-aa1cqgum8268jtjcidu3klcgbvdvq6iu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1007465285635-aa1cqgum8268jtjcidu3klcgbvdvq6iu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBBrtQOtZbRMbwZpB7itHMsJNO7WOCNx6M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1007465285635</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.liang.Eagles-Yard-Sale</string>
+	<key>PROJECT_ID</key>
+	<string>eagles-yard-sales</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eagles-yard-sales.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1007465285635:ios:8a7a5c316bcb6f95</string>
+	<key>DATABASE_URL</key>
+	<string>https://eagles-yard-sales.firebaseio.com</string>
+</dict>
+</plist>
